@@ -6,7 +6,7 @@ const prefix = "-"
 client.on('ready', () => {
     console.log("Connected as " + client.user.tag)
     client.user.setActivity( prefix + "ignore [user]");
-
+ 
 })
 
 client.on("message", async (msg) => {
